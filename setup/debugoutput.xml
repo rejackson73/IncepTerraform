@@ -1,0 +1,91 @@
+<samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" ID="_0dd4bf2db17a3118fd38"  Version="2.0" IssueInstant="2020-11-25T17:13:48.826Z"  Destination="https://manage.auth0.com/tester/samlp">
+  <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">urn:dev-5v485f2p.auth0.com</saml:Issuer>
+  <samlp:Status>
+    <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </samlp:Status>
+  <saml:Assertion xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0" ID="_sgbBpcnIDLIQxXJjQ2pPt41uUpUpwrfB" IssueInstant="2020-11-25T17:13:48.817Z">
+    <saml:Issuer>urn:dev-5v485f2p.auth0.com</saml:Issuer>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <Reference URI="#_sgbBpcnIDLIQxXJjQ2pPt41uUpUpwrfB">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <DigestValue>8QqQ3N7S7vp+4fE6oyDmciDwE9Y=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>D0Hj/zM+n0C/IgeJQq/AD7e15+8EnmIi2C+W+F+S7HG+0UUoDmQEq6ztX2TDl7mvaDIsSyctgmc97VQeIhjotbKrK+Tq2xPr9TcN1K8u/Z5+B/Fx5nk7ONoRcFMFFRSFtXAf2Q8ksE3fKczVmG2VjLsmaXqy1mabfx6xtZGchX22ZExfeCibBoongg8eMpaRw313jLLQ9PAD4w9Ab+fkXFcC2Tvaw8vri6zWx0sYQfu8J9oW34ZjZulRk2OHx/ev4LMDf1GraRbwXgyGQ/mP0zuBVYv1Db6tmtGcrJsyCDe+CnD+Bt4BFx455Z/fOKhzy6SQLEQBxGLBwefJP5LZvg==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIDBzCCAe+gAwIBAgIJMek7GWeVALj4MA0GCSqGSIb3DQEBCwUAMCExHzAdBgNVBAMTFmRldi01djQ4NWYycC5hdXRoMC5jb20wHhcNMjAwMTMxMTQwNTIwWhcNMzMxMDA5MTQwNTIwWjAhMR8wHQYDVQQDExZkZXYtNXY0ODVmMnAuYXV0aDAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxPx16Fyt/TACMzFdtJ/7igo+XVLHlSWV6PQPaO75BMQFKeBvuJwwV7ha63z/mpwnc7CHJwl4eev6J6CHLwXiotNCcTSfcQuyZ1QbYQqG7yq2DiHDDxKAzYHy9j8jBgBw3cCEmuW4nsB2RMbInbn4GpYZjSSyMl51eWE8nAsvIwKDrMAWKxKrqbDdo2ueoFDgtXgjzJQbkzG+ys8dUbziuce1uxe4K8KaUt8qqrNHlGUJ0izab3uMGeH8TyzfCcLc7QriUW15WfY91WIPUaM8T92BPxTSSgPBeBd7COCRaP4iaBKKwOz7z08oG/LL6oRAxfdLMdOJyhli370BJynClwIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQbhnags7R0tdS5Xrxf/vTQZ8xOlTAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBAKJ+6cd7J7ca6iRh8uVDhfPXELKPgPoUKzCwTJMNFW6/BQKR76bST6Kwo9yeDO+d0PD1lGEFZ4slIxYGLEF5jXFoTi3S/8Wbq8nnV1vVrM1qnXtW68z/SPPE/g3/GIjxGZ3EccBFbFOw1SskBgXNGjqQfIU7H5eCKEBmk0AhJvDY1ie6A1A0XLFv934zp9S1viSdVaWwKwBqi3mzkWjNRj9g6N5+ZBHNsKUYUWfzFd123a20K8ddS+zK9RoCfREF0Xan/9MftCUCepLPZN7UPW1GSP4m9gGK8q61/ZISrK59m7govIoy3D9uciOgxs0EnUN94D0R4B8TNtnl1Kpgyms=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+    <saml:Subject>
+      <saml:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">dev@mydomain.com</saml:NameID>
+      <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <saml:SubjectConfirmationData NotOnOrAfter="2020-11-25T18:13:48.817Z" Recipient="https://manage.auth0.com/tester/samlp"/>
+      </saml:SubjectConfirmation>
+    </saml:Subject>
+    <saml:Conditions NotBefore="2020-11-25T17:13:48.817Z" NotOnOrAfter="2020-11-25T18:13:48.817Z"/>
+    <saml:AuthnStatement AuthnInstant="2020-11-25T17:13:48.817Z" SessionIndex="_Kt6tK2G2zCfJUULaAA5Uord7PKFuXRB7">
+      <saml:AuthnContext>
+        <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:unspecified</saml:AuthnContextClassRef>
+      </saml:AuthnContext>
+    </saml:AuthnStatement>
+    <saml:AttributeStatement xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <saml:Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">auth0|5f7ba7040077930068f54c48</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">dev@mydomain.com</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">dev@mydomain.com</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="MemberOf" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic">
+        <saml:AttributeValue xsi:type="xs:string">Development-Team</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">dev@mydomain.com</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/identities/default/provider" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">auth0</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/identities/default/connection" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">Username-Password-Authentication</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/identities/default/isSocial" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:boolean">false</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/nickname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">dev</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/picture" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">https://s.gravatar.com/avatar/fab2714183358ad9a42cdd1bdcb6e43f?s=480&amp;r=pg&amp;d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fde.png</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/username" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">dev_user</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/clientID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">O4NZokjD7KdAhznv3Vdj1SZMApVF93D9</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/created_at" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:anyType">Mon Oct 05 2020 23:06:44 GMT+0000 (Coordinated Universal Time)</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/email_verified" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:boolean">true</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/updated_at" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:anyType">Wed Nov 25 2020 17:04:22 GMT+0000 (Coordinated Universal Time)</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="http://schemas.auth0.com/identifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:AttributeValue xsi:type="xs:string">auth0|5f7ba7040077930068f54c48</saml:AttributeValue>
+      </saml:Attribute>
+    </saml:AttributeStatement>
+  </saml:Assertion>
+</samlp:Response>
